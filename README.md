@@ -8,9 +8,11 @@ git clone https://github.com/aabdlmoula/DevOps-Workshop.git
 https://getcomposer.org/doc/faqs/how-to-install-composer-programmatically.md
 
 2 - install phpunit
+
 https://coderwall.com/p/mklvdw/install-phpunit-with-composer
 
-3 - Lancer les Tests Unitaires
+3 - Launch Unit Tests :
+
 vendor/bin/phpunit SampleTest.php
 
 

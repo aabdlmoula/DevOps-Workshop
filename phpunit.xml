@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="tests/bootstrap.php">
+  <testsuites>
+    <testsuite name="unitaire">
+      <directory>./tests/ut/</directory>
+    </testsuite>
+    <testsuite name="integration">
+      <directory>./tests/it/</directory>
+    </testsuite>
+    <testsuite name="acceptance">
+      <directory>./tests/at/</directory>
+    </testsuite>
+    <!--testsuite name="performance">
+      <directory>./tests/pt/</directory>
+    </testsuite-->
+  </testsuites>
+</phpunit> 
